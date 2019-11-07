@@ -34,7 +34,7 @@ const myVM = (() => {
         //debugger;
 
         // 1, 2, or 3 depending on which a tag you click
-        let url = `/${this.getAttribute('href')}`,
+        let url = `/users/${this.getAttribute('href')}`,
             currentImg = this.previousElementSibling.getAttribute('src');
 
         // This goes and fetches the database content (or an API endpoint) That's why it's called a fetch!
